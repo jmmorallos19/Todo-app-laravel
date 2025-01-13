@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header > nav ul li a{
+    @apply py-2 border-b-2 border-solid border-b-green-500 hover:border-b-2  hover:border-solid hover:border-b-white
+}
